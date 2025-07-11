@@ -1,0 +1,480 @@
+.header-container{
+    width: 75%;
+    overflow:hidden;
+    
+    margin:auto;
+
+   /*background-color: rgba(232, 241, 234, 0.568);*/
+
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.left-menu{
+    width: 35%;
+    height: 75px;
+    float:left;
+    /*background-color: antiquewhite;*/
+
+}
+.logo{
+    width: 15%;
+    height: 75px;
+    float: left;
+   /* background-color: aqua;*/
+}
+.right-menu{
+    width: 50%;
+    height: 75px;
+    float: left;
+    /*background-color: blueviolet;*/
+}
+.left-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.left-menu ul li{
+    float: left;
+}
+.left-menu ul li a{
+    text-decoration: none;
+    padding: 25px 15px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left-menu ul li a:hover{
+   /* background-color: chocolate;*/
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.right-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.right-menu ul li{
+    float:right;
+}
+.right-menu ul li a{
+    text-decoration: none;
+    padding: 25px 15px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.righ-menu ul li a:hover{
+    background-color: chocolate;
+}
+/* From Uiverse.io by Na3ar-17 */ 
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  position: relative;
+  display: block;
+  width: 100px;
+  display: flex;
+  border-radius: 6px;
+  border: 2px solid #373737;
+  padding: 15px 8px 15px 10px;
+  text-align: left;
+  transform: translateY(10px);
+
+  .icon {
+    position: absolute;
+    top: 53%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+    color: #c5c5c5;
+  }
+
+  .input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #c5c5c5;
+    font-size: 16px;
+  }
+}
+.homepage-container{
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:url('../asset/image/OIP.webp')
+    
+}
+.homepage-content{
+    width: 400px;
+    height: 300px;
+    /*background-color: blue;*/
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 50px;
+
+}
+.homepage-content h1,h2,p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.homepage-content h2{
+    font-size: 80px;
+    line-height:60px;
+    margin: 0;
+}
+.homepage-content p{
+    font-size: 25px;
+}
+.buttom-shop{
+    width: 400px;
+    height:100px ;
+    /*background-color: gold;*/
+    transform: translateY(400px);
+    margin-left: 50px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+/* From Uiverse.io by cssbuttons-io */ 
+button {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:active,
+button:hover {
+  outline: 0;
+}
+
+button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+button:hover span {
+  background: none;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+.brand-container{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*background-color: #af40ff;*/
+}
+.brand-container .branding{
+    width: 20%;
+    height: 120px;
+}
+.brand-container .branding img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product-feature{
+    width: 75%;
+    overflow:hidden;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-feature .product-item{
+    width: 30%;
+    height: 350px;
+    margin: bottom 20px;
+   background-color:pink ;
+    overflow: hidden;
+}
+
+.product-feature .product-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+
+}
+.product-feature .product-item img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.promotion-container{
+    width: 75%;
+    overflow: hidden;
+    margin:auto;
+    padding: 0;
+}
+.promotion-container .title{
+    width: 100%;
+    height: 40px;
+   /* background-color: grey;*/
+}
+.promotion-container .title h1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.promotion-container .item-product{
+    width: 100%;
+    overflow: hidden;
+    /*background-color: yellow;*/
+    margin-top: 20px;
+    display: flex;
+    text-decoration: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.item-product .item{
+    width: 23%;
+    height: 440px;
+    /*background-color: #c4c0c7;*/
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+.item-product .item .image{
+    width: 100%;
+    height: 85%;
+    
+}
+.item-product .item .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.item-product .item .image img:hover{
+ transform: scale(1.1);
+    cursor: pointer;
+}
+.item-product .item .title{
+    width: 100%;
+    height: 15%;
+}   
+.item-product .item .title h3{
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.item-product .item .title p{
+    font-size: 14px;
+    margin: 0px;
+    color: black;
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item-product .item .btn-color{
+    width: 10px;
+    height: 10px;
+    background-color:black;
+    border: 2px solid rgb(7, 6, 6);
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+.item-product .item .btn-color:last-child{
+    background-color: rgb(228, 209, 209);
+    margin:px;
+}
+.item-product .item .discount{
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.submenu{
+    width: 100px;
+    overflow: hidden;
+   /* background-color: rgba(233, 223, 228, 0);*/
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    transform: scaleZ(20px);
+}
+.left-menu ul li:hover .submenu{
+    opacity: 1;
+    transform: scaleZ(0px);
+}
+.footer-container{
+    width: 75%;
+    height: 200px;
+   /*background-color: purple;*/
+    margin-top: auto;
+    padding-left:100px ;
+
+}
+.footer1{
+    width: 20%;
+    height: 100%;
+    float: left;
+    /*background-color: aqua;*/
+
+}
+.footer2{
+    width: 15%;
+    height: 100%;
+    float: left;
+   /* background-color: green;*/
+}
+.footer3{
+    width: 17.50%;
+    height: 100%;
+    float: left;
+    /*background-color: violet;*/
+}
+.footer1:nth-child(1) .QRCode{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.footer1:nth-child(1) .QRCode img{
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+    transform: translateY(-60px);
+}
+.footer1:nth-child(1) .QRCode h6{
+    transform: translateY(8px);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /*font-weight: bold;*/
+
+}
+.LOYALTY p{
+    transform: translateY(0px);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+
+.footer2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.footer2 h4{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*text-align: center;*/
+    color: black;
+    margin-top: 40px;
+
+}
+.footer2 ul li a{
+    display: block;
+    padding: 4px;
+    text-transform: capitalize;
+    text-decoration:none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*text-transform: uppercase;*/
+}
+.footer3 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.footer3 h4{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*text-align: center;*/
+    color: black;
+    margin-top: 40px;
+
+}
+.footer3 ul li a{
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*text-transform: uppercase;*/
+}
+.footer1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.footer1 h4{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*text-align: center;*/
+    color: black;
+    margin-top: 40px;
+
+}
+.footer1 ul li a{
+    display: block;
+    padding: 4px;
+  
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*text-transform: uppercase;*/
+}
